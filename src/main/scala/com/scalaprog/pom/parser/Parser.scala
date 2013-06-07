@@ -26,7 +26,7 @@ class Parser {
 
 object Parser {
   def main(args: Array[String]) {
-    require(args.size < 1, "You need to specify a pom file to parse")
+    require(args.size >= 1, "You need to specify a pom file to parse")
     val inputFile = args(0)
     val parser = new Parser
     if (args.size > 1) {
