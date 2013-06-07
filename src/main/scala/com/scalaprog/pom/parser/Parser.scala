@@ -1,4 +1,6 @@
-import scala.xml._
+package com.scalaprog.pom.parser
+
+import scala.xml.XML
 
 /**
  * User: soren
